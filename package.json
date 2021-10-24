@@ -1,0 +1,25 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "todo application for managing daily basis tasks ",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo",
+    "task",
+    "scheduler"
+  ],
+  "author": "w.aboelhassan@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.11",
+    "nodemon": "^2.0.13"
+  }
+}
